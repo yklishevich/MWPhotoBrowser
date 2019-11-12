@@ -1,0 +1,10 @@
+  github "matej/MBProgressHUD" ~> 0.9
+  
+  # SDWebImage
+  # 3.7.2 contains bugs downloading local files
+  # https://github.com/rs/SDWebImage/issues/1109
+  github "SDWebImage/SDWebImage" ~> 3.7
+  
+  #s.dependency 'DACircularProgress', '~> 2.3'
+  # For this dep carthage support was added manually.
+  github "yklishevich/DACircularProgress" "ed416d43b0b35431935d73ece752fe22a49bbd47" 	# pod 'DACircularProgress', '== 2.3.1' with added carthage support
